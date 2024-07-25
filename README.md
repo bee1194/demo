@@ -44,7 +44,7 @@ This is a Task manager project. In this project used
   - Estimated time: 16 hours
 
 ### AWS Amplify
-- [ ] Research [AWS Amplify](https://aws.amazon.com/amplify/)
+- [x] Research [AWS Amplify](https://aws.amazon.com/amplify/)
 - [ ] Setup the AWS Amplify
   - Estimated time: 16 hours
 
@@ -67,8 +67,8 @@ This is a Task manager project. In this project used
   - Estimated time: 30 minutes
 
 ### Others
-- [ ] CI/CD pipeline
+- [ ] CI/CD pipeline deployment
   - Estimated time: 1 hour
-- [ ] Dockerize the application
-  - Estimated time: 1 hour
+- [ ] Support Docker for development
+  - Estimated time: 30 minutes
 - [ ] Unit Test coverage 80%
