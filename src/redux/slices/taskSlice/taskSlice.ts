@@ -9,7 +9,7 @@ const defaultValue = {
 };
 
 const initialState: TaskSliceState = {
-  get: defaultValue,
+  listing: defaultValue,
 };
 
 export const taskSlice = createSlice({
@@ -17,15 +17,15 @@ export const taskSlice = createSlice({
   initialState,
   reducers: {
     getRequest: (state) => {
-      state.get.loading = true;
+      state.listing.loading = true;
     },
     getSuccess: (state, action: PayloadAction<ITask[]>) => {
-      state.get.loading = false;
-      state.get.data = action.payload;
+      state.listing.loading = false;
+      state.listing.data = action.payload;
     },
     getFail: (state, action: PayloadAction<string>) => {
-      state.get.loading = false;
-      state.get.error = action.payload;
+      state.listing.loading = false;
+      state.listing.error = action.payload;
     },
   },
 });

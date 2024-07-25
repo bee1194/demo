@@ -1,12 +1,12 @@
 import { APIDataState } from "@/constants/types";
 
 export interface TaskSliceState {
-  get: APIDataState<ITask[]>;
+  listing: APIDataState<ITask[]>;
 }
 
 export enum ITaskStatus {
   TODO = "todo",
-  IN_PROGRESS = "in_progress",
+  IN_PROGRESS = "inprogress",
   DONE = "done",
 }
 

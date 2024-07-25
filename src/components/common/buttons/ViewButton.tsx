@@ -1,8 +1,15 @@
 import RemoveRedEyeOutlinedIcon from "@mui/icons-material/RemoveRedEyeOutlined";
 
-export default function ViewButton() {
+interface Props {
+  onClick?: () => void;
+}
+
+export default function ViewButton({ onClick }: Props) {
   return (
-    <button className="btn btn-sm btn-success btn-outline btn-square">
+    <button
+      onClick={onClick}
+      className="btn btn-sm btn-success btn-outline btn-square"
+    >
       <RemoveRedEyeOutlinedIcon />
     </button>
   );

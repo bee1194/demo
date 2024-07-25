@@ -1,7 +1,7 @@
 import React from "react";
 
-import Dashboard from "@/components/Dashboard";
+import Tasks from "@/components/Tasks";
 
 export default function Page() {
-  return <Dashboard />;
+  return <Tasks />;
 }

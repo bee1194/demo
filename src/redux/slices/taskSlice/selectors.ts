@@ -1,2 +1,2 @@
 import type { ReduxState } from "@/redux";
-export const selectTask = (state: ReduxState) => state.task;
+export const selectTasks = (state: ReduxState) => state.tasks.listing;
