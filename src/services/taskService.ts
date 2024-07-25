@@ -1,7 +1,25 @@
 import { ITask, ITaskStatus } from "@/models/task.model";
 
+export const updateTask = async (): Promise<ITask> => {
+  // This is a mock implementation of the updateTask function
+  // We return the updated task
+  return {} as unknown as ITask;
+};
+
+export const assignTask = async (): Promise<ITask> => {
+  // This is a mock implementation of the assignTask function
+  // We return the updated task
+  return {} as unknown as ITask;
+};
+
+export const deleteTask = async (): Promise<string> => {
+  // This is a mock implementation of the deleteTask function
+  // We return the Status of the deleted task
+  return "DELETED";
+};
+
 // This is a mock service that returns a list of tasks
-export const get = async (): Promise<ITask[]> => {
+export const getTasks = async (): Promise<ITask[]> => {
   return [
     {
       id: 1,
@@ -57,7 +75,7 @@ export const get = async (): Promise<ITask[]> => {
 };
 
 const taskService = {
-  get,
+  getTasks,
 };
 
 export default taskService;

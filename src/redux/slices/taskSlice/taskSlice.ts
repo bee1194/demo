@@ -13,7 +13,7 @@ const initialState: TaskSliceState = {
 };
 
 export const taskSlice = createSlice({
-  name: "task",
+  name: "tasks",
   initialState,
   reducers: {
     getRequest: (state) => {

@@ -1,31 +1,74 @@
-# Redux Toolkit TypeScript Example
+# DEMO Project
 
-This example shows how to integrate Next.js with [Redux Toolkit](https://redux-toolkit.js.org).
-
-The **Redux Toolkit** is a standardized way to write Redux logic (create actions and reducers, setup the store with some default middlewares like redux devtools extension). This example demonstrates each of these features with Next.js
-
-## Deploy your own
-
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-redux&project-name=with-redux&repository-name=with-redux)
+This is a Task manager project. In this project used 
+- **ReactJs** is main library
+- **Next.js** is a framework for ReactJs
+- **Typescript** is a superset of JavaScript
+- **Jest** is a testing framework
+- **Eslint** is a linting tool
+- **Prettier** is a code formatter
+- **Tailwindcss** is a utility-first CSS framework
+- **DaisyUI** is a component library for Tailwindcss
+- **Redux Toolkit** is a state management library
+- **Formik** is a form library
+- **Yup** is a schema builder for value parsing and validation
+- **Highcharts** is a charting library
+- And some other libraries, plugins, and tools
 
 ## How to use
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+### Setup in local machine
+- Step 1: Clone the repository `git clone https://github.com/bee1194/demo.git demo`
+- Step 2: Go to the project directory `cd demo`
+- Step 3: Install the dependencies `npm install`
+- Step 4: Run the project `npm run dev`
+- Step 5: Open the browser and go to `http://localhost:3000`
 
-```bash
-npx create-next-app --example with-redux with-redux-app
-```
+### Some useful commands
+- `npm run dev` - Run the project in development mode
+- `npm run build` - Build the project
+- `npm run start` - Run the project in production mode
+- `npm run lint` - Run the linting
+- `npm run test` - Run the test cases
+- `npm run test:coverage` - Run the test cases and generate the coverage report
+- `npm run test:watch` - Run the test cases in watch mode
 
-```bash
-yarn create next-app --example with-redux with-redux-app
-```
+#### Some points to be noted
+- The test cases are written for the component, It should be placed in the same directory with the extension `.test.tsx`
 
-```bash
-pnpm create next-app --example with-redux with-redux-app
-```
+## ROADMAP
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+### Micro Frontend Structure
+- [x] Research [Webpack Module Federation](https://webpack.js.org/concepts/module-federation/)
+- [ ] Setup the Micro Frontend Structure
+  - Estimated time: 16 hours
 
-Refer [here from Git](https://github.com/vercel/next.js/tree/canary/examples/with-redux)
+### AWS Amplify
+- [ ] Research [AWS Amplify](https://aws.amazon.com/amplify/)
+- [ ] Setup the AWS Amplify
+  - Estimated time: 16 hours
+
+### Highcharts Integration
+- [x] Setup the Highcharts
+- [ ] Complete Statistics Page
+  - Estimated time: 2 hours
+
+### Features
+- [x] List the task
+- [ ] Sort the task
+  - Estimated time: 30 minutes
+- [ ] Filter the task
+  - Estimated time: 30 minutes
+- [ ] Update the task
+  - Estimated time: 30 minutes
+- [ ] Mark the task as completed
+  - Estimated time: 30 minutes
+- [ ] Delete the task
+  - Estimated time: 30 minutes
+
+### Others
+- [ ] CI/CD pipeline
+  - Estimated time: 1 hour
+- [ ] Dockerize the application
+  - Estimated time: 1 hour
+- [ ] Unit Test coverage 80%
